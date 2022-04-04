@@ -1,0 +1,9 @@
+.home {
+  &__refresh-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+}

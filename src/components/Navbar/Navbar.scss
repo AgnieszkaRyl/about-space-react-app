@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #90BDD0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+  &__link {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  &__links {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+  }
+  &__image {
+    width: 30px;
+    height: 30px;
+    fill: white;
+  }
+}

@@ -1,0 +1,50 @@
+.article-tile {
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  box-shadow: 8px 8px 35px -13px rgba(66, 68, 90, 1);
+
+  &__title-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 22px;
+    margin-right: 10px;
+  }
+
+  &__button {
+    background-color: transparent;
+    border: none;
+  }
+
+  &__icon {
+    width: 30px;
+    height: 30px;
+    fill: none;
+    &:hover{
+      fill: #d25858;
+    }
+
+    &--filled {
+      fill: #d25858;
+    }
+  }
+
+  &__link {
+    color: #e26e6e;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap:8px;
+    line-height: 100%;
+  }
+  &__link-icon {
+    fill: #e26e6e;
+    width: 16px;
+    height: 16px;
+  }
+}
